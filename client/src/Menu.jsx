@@ -17,8 +17,8 @@ function Menu() {
   };
 
   const showMap = () => {
-    const latitude = 40.712776;
-    const longitude = -74.005974;
+    const latitude = 49.280449;
+    const longitude = -123.115840;
     const googleMapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
     window.open(googleMapsUrl);
   };
@@ -29,7 +29,7 @@ function Menu() {
       <Header onShowCart={showCardHandle} />
       <main>
         <BubbleTea />
-        <button className="mapButton" onClick={showMap}>Show Map</button>
+        <button className="mapButton" onClick={showMap}>Find Us</button>
       </main>
     </CartProvider>
   );

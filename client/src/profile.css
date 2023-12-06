@@ -21,3 +21,15 @@
     cursor: pointer;
   }
   
+  @media (min-width: 550px) {
+    .header {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  
+    /* flex-basis on the li sets the width of the li to 49.5% - this allows two li to fit on a line */
+    .user {
+      flex-basis: 49.5%;
+    }
+  }
