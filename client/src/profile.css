@@ -1,0 +1,23 @@
+.orders{
+    text-align: center;
+    font-size: 30px;
+}
+
+.user{font-size: 24px;}
+  
+  .email,
+  .phone {
+    margin-top: 8px; 
+  }
+  
+  .phone input {
+
+    margin-right: 8px;
+  }
+  
+  .phone button {
+    background-color: #df1616; 
+    border: none;
+    cursor: pointer;
+  }
+  
