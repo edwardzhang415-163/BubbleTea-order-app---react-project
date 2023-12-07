@@ -19,4 +19,4 @@ in client env
 
 Lighthouse
 ![Alt text](<Lighthouse/app accessibility.png>)
-![Alt text](<Lighthouse/home accessibility.png>)
+![Alt text](<Lighthouse/detail accessibility.png>)
