@@ -1,0 +1,26 @@
+.mapButton {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .mapButton:hover {
+    background-color: #3367d6;
+  }
+  
+  @media (min-width: 550px) {
+    .header {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  
+    /* flex-basis on the li sets the width of the li to 49.5% - this allows two li to fit on a line */
+    .user {
+      flex-basis: 49.5%;
+    }
+  }

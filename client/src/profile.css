@@ -1,0 +1,35 @@
+.orders{
+    text-align: center;
+    font-size: 30px;
+}
+
+.user{font-size: 24px;}
+  
+  .email,
+  .phone {
+    margin-top: 8px; 
+  }
+  
+  .phone input {
+
+    margin-right: 8px;
+  }
+  
+  .phone button {
+    background-color: #df1616; 
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (min-width: 550px) {
+    .header {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+  
+    /* flex-basis on the li sets the width of the li to 49.5% - this allows two li to fit on a line */
+    .user {
+      flex-basis: 49.5%;
+    }
+  }

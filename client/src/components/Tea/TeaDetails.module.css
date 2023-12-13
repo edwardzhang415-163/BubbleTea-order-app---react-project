@@ -1,0 +1,52 @@
+.detail {
+    max-width: 60rem;
+    width: 60%;
+    margin: 2rem auto;
+    animation: teas-appear 1s ease-out forwards;
+  }
+
+  @keyframes teas-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .return-btn {
+    background-color: white;
+    color: #2980b9;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align :center;
+    flex-grow: 1;
+  }
+
+  .cal {
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .description {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+  
